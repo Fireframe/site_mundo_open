@@ -3,21 +3,6 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
-/* Navbar */
-.navbar {
-    margin-bottom: 0;
-    display: flex;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-.navbar-logo {
-    height: 50px;
-}
-
-.navbar-toggler {
-    margin-left: auto;
-}
 
 /* Hero Section */
 .hero {
