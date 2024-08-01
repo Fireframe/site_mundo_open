@@ -1,0 +1,197 @@
+/* General Styles */
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    margin-bottom: 0;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.navbar-logo {
+    height: 50px;
+}
+
+.navbar-toggler {
+    margin-left: auto;
+}
+
+/* Hero Section */
+.hero {
+        padding: 100px 0;
+        background-image: url('imgs/imagen\ 1.png'); 
+        background-size: cover;
+        background-position: center;
+    
+    
+}
+
+.hero h1, .hero p {
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.hero button {
+    margin: 0 10px;
+}
+
+/* Monitoring Solution */
+.monitoring-solution h2 {
+    margin-bottom: 40px;
+}
+
+/* Features Overview */
+.features-overview h2 {
+    margin-bottom: 40px;
+}
+
+.features-overview h3 {
+    margin-top: 20px;
+}
+
+.features-overview p {
+    margin-bottom: 20px;
+}
+
+
+/* Build a Resilient Cloud */
+.build-resilient-cloud {
+    background-color: #368895;
+    color: white;
+}
+
+.build-resilient-cloud h2 {
+    margin-bottom: 40px;
+}
+
+.build-resilient-cloud .card {
+    background-color: #368895;
+    border: none;
+    border-radius: 8px;
+}
+
+.build-resilient-cloud .card a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.build-resilient-cloud .card a:hover {
+    text-decoration: underline;
+}
+
+/* Video Section */
+.video-section {
+    padding: 100px 0;
+    background-color: #368895;
+}
+
+.video-section h2 {
+    margin-bottom: 20px;
+}
+
+/* Pricing Section */
+.pricing-section h2 {
+    margin-bottom: 40px;
+}
+
+.pricing-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+/* Footer */
+.footer {
+    background-color: #368895;
+}
+
+.footer p {
+    margin: 0;
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+.politica a {
+    color: #c4c4c4;
+    text-decoration: underline;
+}
+
+.contato {
+    background: url('imgs/degrade.png') no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+.contato form {
+    background: rgba(238, 238, 238, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.contato .form-control {
+    margin-bottom: 20px;
+}
+
+.contato button {
+    background-color: #368895;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contato button:hover {
+    background-color: #004494;
+}
+
+.conheca {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.conheca h2 {
+    font-size: 1.5em;
+    color: #0056b3;
+    margin-bottom: 20px;
+}
+
+.conheca h3 {
+    font-size: 2em;
+    color: #004494;
+    margin-bottom: 20px;
+}
+
+.conheca p {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.conheca .btn-primary {
+    background-color: #0056b3;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.conheca .btn-primary:hover {
+    background-color: #004494;
+}
